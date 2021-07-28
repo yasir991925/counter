@@ -26,15 +26,15 @@ body {
 .value {
   margin: 0;
   font-size: 20rem;
+  margin-bottom: 20%;
 }
 
 .controls {
   display: flex;
-  width: 30%;
-  justify-content: space-between;
 }
 
 button {
+  margin: 0px 20px;
   outline: none;
   border: 0;
   padding: 20px 30px;
@@ -46,8 +46,7 @@ button {
 }
 
 button:hover {
-  color: #fefefe;
-  background-color: rgb(55, 85, 255);
+  background-color: rgb(92, 116, 255);
 }
 
 button:active {
@@ -56,4 +55,13 @@ button:active {
 
 .red {
   color: rgb(235, 76, 76);
+}
+
+.hover-green:hover {
+  color: #111;
+  background-color: rgb(150, 214, 47);
+}
+.hover-red:hover {
+  color: #111;
+  background-color: rgb(235, 76, 76);
 }
